@@ -77,4 +77,4 @@ for image_path in img:
     # print(image_path)
 
     nimg = Image.fromarray(image_np_with_detections)
-    nimg.save('/home/pi/PPE_Detection/output/'+count+".jpg")
+    nimg.save('/home/pi/PPE_Detection/output/'+image_path[27:])
